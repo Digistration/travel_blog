@@ -1,0 +1,313 @@
+body{
+  .background{
+    .container{
+      .row2{
+        height: 25%;
+        display: flex;
+        flex-direction: column;
+
+        .header{
+          height: 18.75%;
+          display: flex;
+          flex-direction: row;
+          .col{
+            width: 20%;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            justify-content: center;
+          }
+          h1, a{
+            font-size: 3vw;
+            font-weight: 100;
+            margin: auto;
+            font-family: 'riveradventure', sans-serif;
+            text-transform: uppercase;
+            color: white;
+            cursor: pointer;
+            text-decoration: none;
+          }
+          .col1{}
+          .col2{}
+          .col3{
+            .logo{
+              height: 15vw;
+              width: 14.75vw;
+              margin: auto;
+              background-image: url("/img/logo.png");
+              background-size: cover;
+              background-repeat: no-repeat;
+              cursor: pointer;
+            }
+          }
+          .col4{}
+          .col5{}
+        }
+
+        .container{
+          height: 81.25%;
+          margin: 0 auto;
+          margin-top: 75%;
+          padding: 0;
+          display: flex;
+          flex-direction: column;
+
+          .slider1{
+            height: 30vw;
+            width: 100%;
+            overflow: hidden;
+            display: flex;
+            flex-direction: row;
+            text-align: center;
+            justify-content: center;
+            background-image: url("/img/track.png");
+            background-size: 97.5%;
+            background-repeat: no-repeat;
+            background-position: center;
+            i{
+              position: absolute;
+              font-size: 3.5vw;
+              color: #fff;
+              z-index: 100;
+              cursor: pointer;
+            }
+            #s1_btn_prev{
+              left: 5vw;
+              top: 14vw;
+            }
+            #s1_btn_next{
+              right: 5vw;
+              top: 14vw;
+            }
+
+            .slider_outer{
+              height: 30vw;
+              width: 100%;
+              display: flex;
+              flex-direction: row;
+              position: relative;
+              overflow: hidden;
+
+              .slider_inner{
+                height: 30vw;
+                width: 100%;
+                margin: auto;
+                display: flex;
+                flex-direction: row;
+                position: relative;
+                overflow: hidden;
+
+                .slide1{
+                  width: 75%;
+                  margin: auto 10vw;
+                  display: none;
+                  flex-direction: row;
+                  justify-content: center;
+                  .pic_box{
+                    height: 25vw;
+                    width: 40vw;
+                    margin: auto 1vw;
+                    background-image: url("/img/shanghai/row2_slide1.jpg");
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    background-position: center;
+                  }
+                  p{
+                    width: 30vw;
+                    margin: auto 1vw;
+                    font-family: 'Ubuntu';
+                    font-size: 2vw;
+                    color: white;
+                  }
+                }
+
+                .slide2{
+                  width: 75%;
+                  margin: auto 10vw;
+                  display: none;
+                  flex-direction: row;
+                  justify-content: center;
+                  .pic_box{
+                    height: 25vw;
+                    width: 40vw;
+                    margin: auto 1vw;
+                    background-image: url("/img/shanghai/row2_slide2.jpg");
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    background-position: center;
+                  }
+                  p{
+                    width: 30vw;
+                    margin: auto 1vw;
+                    font-family: 'Ubuntu';
+                    font-size: 2vw;
+                    color: white;
+                  }
+                }
+
+                .slide3{
+                  width: 75%;
+                  margin: auto 10vw;
+                  display: none;
+                  flex-direction: row;
+                  justify-content: center;
+                  .pic_box{
+                    height: 25vw;
+                    width: 40vw;
+                    margin: auto 1vw;
+                    background-image: url("/img/shanghai/row2_slide3.jpg");
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    background-position: center;
+                  }
+                  p{
+                    width: 30vw;
+                    margin: auto 1vw;
+                    font-family: 'Ubuntu';
+                    font-size: 2vw;
+                    color: white;
+                  }
+                }
+                .active{
+                  display: flex;
+                }
+              }
+            }
+          }
+
+          .shanghai{
+            height: 10.25vw;
+            width: 25vw;
+            margin: 0 auto;
+            background-image: url("/img/shanghai.png");
+            background-size: cover;
+            background-repeat: no-repeat;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 800px){
+  body{
+    .background{
+      .container{
+        .row2{
+          .header{
+            .col1{
+              display: none;
+            }
+            .col2{
+              display: none;
+            }
+            .col3{
+              width: 30%;
+              margin: auto;
+              .logo{
+                height: 20vw;
+                width: 25vw;
+              }
+            }
+            .col4{
+                display: none;
+            }
+            .col5{
+                display: none;
+            }
+          }
+
+          .container{
+            height: 70%;
+            margin: auto;
+            margin-top: 40%;
+
+            .slider1{
+              height: 45%;
+              display: flex;
+              flex-direction: column;
+              background-size: 150%;
+              i{
+                font-size: 10vw;
+              }
+              #s1_btn_prev{
+                left: 2vw;
+                top: 17.5vw;
+              }
+              #s1_btn_next{
+                right: 2vw;
+                top: 17.5vw;
+              }
+
+              .slider_outer{
+                height: 90%;
+                margin: auto;
+                display: flex;
+                flex-direction: column;
+
+                .slider_inner{
+                  height: 100%;
+                  margin: auto;
+                  padding: 0;
+
+                  .slide1{
+                    height: 100%;
+                    width: 75%;
+                    margin: auto;
+                    .pic_box{
+                      height: 100%;
+                      width: 45%;
+                    }
+                    p{
+                      width: 45%;
+                      font-size: 3vw;
+                    }
+                  }
+
+                  .slide2{
+                    height: 100%;
+                    width: 75%;
+                    margin: auto;
+                    .pic_box{
+                      height: 100%;
+                      width: 45%;
+                    }
+                    p{
+                      width: 45%;
+                      font-size: 3vw;
+                    }
+                  }
+
+                  .slide3{
+                    height: 100%;
+                    width: 75%;
+                    margin: auto;
+                    .pic_box{
+                      height: 100%;
+                      width: 45%;
+                    }
+                    p{
+                      width: 45%;
+                      font-size: 3vw;
+                    }
+                  }
+                  .active{
+                    display: flex;
+                  }
+                }
+              }
+            }
+
+            .shanghai{
+              height: 15vw;
+              width: 30vw;
+              margin: auto;
+              margin-top: 40%;
+            }
+          }
+        }
+      }
+    }
+  }
+}
