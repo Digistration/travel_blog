@@ -28,7 +28,7 @@ body .background .container .row2 {
       height: 15vw;
       width: 14.75vw;
       margin: auto;
-      background-image: url("/img/logo.png");
+      background-image: url("../img/logo.png");
       background-size: cover;
       background-repeat: no-repeat;
       cursor: pointer; }
@@ -47,7 +47,7 @@ body .background .container .row2 {
       flex-direction: row;
       text-align: center;
       justify-content: center;
-      background-image: url("/img/track.png");
+      background-image: url("../img/track.png");
       background-size: 97.5%;
       background-repeat: no-repeat;
       background-position: center; }
@@ -88,7 +88,7 @@ body .background .container .row2 {
               height: 25vw;
               width: 40vw;
               margin: auto 1vw;
-              background-image: url("/img/shanghai/row2_slide1.jpg");
+              background-image: url("../img/shanghai/row2_slide1.jpg");
               background-size: cover;
               background-repeat: no-repeat;
               background-position: center; }
@@ -108,7 +108,7 @@ body .background .container .row2 {
               height: 25vw;
               width: 40vw;
               margin: auto 1vw;
-              background-image: url("/img/shanghai/row2_slide2.jpg");
+              background-image: url("../img/shanghai/row2_slide2.jpg");
               background-size: cover;
               background-repeat: no-repeat;
               background-position: center; }
@@ -128,7 +128,7 @@ body .background .container .row2 {
               height: 25vw;
               width: 40vw;
               margin: auto 1vw;
-              background-image: url("/img/shanghai/row2_slide3.jpg");
+              background-image: url("../img/shanghai/row2_slide3.jpg");
               background-size: cover;
               background-repeat: no-repeat;
               background-position: center; }
@@ -144,7 +144,7 @@ body .background .container .row2 {
       height: 10.25vw;
       width: 25vw;
       margin: 0 auto;
-      background-image: url("/img/shanghai.png");
+      background-image: url("../img/shanghai.png");
       background-size: cover;
       background-repeat: no-repeat;
       cursor: pointer; }
@@ -246,7 +246,7 @@ body .background .container .row3 {
       flex-direction: row;
       text-align: center;
       justify-content: center;
-      background-image: url("/img/track.png");
+      background-image: url("../img/track.png");
       background-size: 97.5%;
       background-repeat: no-repeat;
       background-position: center; }
@@ -287,7 +287,7 @@ body .background .container .row3 {
               height: 25vw;
               width: 40vw;
               margin: auto 1vw;
-              background-image: url("/img/westfjord/row3_slide1.jpg");
+              background-image: url("../img/westfjord/row3_slide1.jpg");
               background-size: cover;
               background-repeat: no-repeat;
               background-position: center; }
@@ -307,7 +307,7 @@ body .background .container .row3 {
               height: 25vw;
               width: 40vw;
               margin: auto 1vw;
-              background-image: url("/img/westfjord/row3_slide2.jpg");
+              background-image: url("../img/westfjord/row3_slide2.jpg");
               background-size: cover;
               background-repeat: no-repeat;
               background-position: center; }
@@ -327,7 +327,7 @@ body .background .container .row3 {
               height: 25vw;
               width: 40vw;
               margin: auto 1vw;
-              background-image: url("/img/westfjord/row3_slide3.jpg");
+              background-image: url("../img/westfjord/row3_slide3.jpg");
               background-size: cover;
               background-repeat: no-repeat;
               background-position: center; }
@@ -343,7 +343,7 @@ body .background .container .row3 {
       height: 10vw;
       width: 30vw;
       margin: 0 auto;
-      background-image: url("/img/westfjords.png");
+      background-image: url("../img/westfjords.png");
       background-size: cover;
       background-repeat: no-repeat;
       cursor: pointer; }
@@ -431,7 +431,7 @@ body .background .container .row4 {
       flex-direction: row;
       text-align: center;
       justify-content: center;
-      background-image: url("/img/track.png");
+      background-image: url("../img/track.png");
       background-size: 97.5%;
       background-repeat: no-repeat;
       background-position: center; }
@@ -472,7 +472,7 @@ body .background .container .row4 {
               height: 25vw;
               width: 40vw;
               margin: auto 1vw;
-              background-image: url("/img/parbat/row4_slide1.jpg");
+              background-image: url("../img/parbat/row4_slide1.jpg");
               background-size: cover;
               background-repeat: no-repeat;
               background-position: center; }
@@ -492,7 +492,7 @@ body .background .container .row4 {
               height: 25vw;
               width: 40vw;
               margin: auto 1vw;
-              background-image: url("/img/parbat/row4_slide2.jpg");
+              background-image: url("../img/parbat/row4_slide2.jpg");
               background-size: cover;
               background-repeat: no-repeat;
               background-position: center; }
@@ -512,7 +512,7 @@ body .background .container .row4 {
               height: 25vw;
               width: 40vw;
               margin: auto 1vw;
-              background-image: url("/img/parbat/row4_slide3.jpg");
+              background-image: url("../img/parbat/row4_slide3.jpg");
               background-size: cover;
               background-repeat: no-repeat;
               background-position: center; }
@@ -528,7 +528,7 @@ body .background .container .row4 {
       height: 10.25vw;
       width: 25vw;
       margin: 0 auto;
-      background-image: url("/img/parbat.png");
+      background-image: url("../img/parbat.png");
       background-size: cover;
       background-repeat: no-repeat;
       cursor: pointer; }
@@ -616,7 +616,7 @@ body .background .container .row5 {
       flex-direction: row;
       text-align: center;
       justify-content: center;
-      background-image: url("/img/track.png");
+      background-image: url("../img/track.png");
       background-size: 97.5%;
       background-repeat: no-repeat;
       background-position: center; }
@@ -657,7 +657,7 @@ body .background .container .row5 {
               height: 25vw;
               width: 40vw;
               margin: auto 1vw;
-              background-image: url("/img/uttarakhand/row5_slide1.jpg");
+              background-image: url("../img/uttarakhand/row5_slide1.jpg");
               background-size: cover;
               background-repeat: no-repeat; }
             body .background .container .row5 .container .slider4 .slider_outer .slider_inner .slide1 p {
@@ -676,7 +676,7 @@ body .background .container .row5 {
               height: 25vw;
               width: 40vw;
               margin: auto 1vw;
-              background-image: url("/img/uttarakhand/row5_slide2.jpg");
+              background-image: url("../img/uttarakhand/row5_slide2.jpg");
               background-size: cover;
               background-repeat: no-repeat; }
             body .background .container .row5 .container .slider4 .slider_outer .slider_inner .slide2 p {
@@ -695,7 +695,7 @@ body .background .container .row5 {
               height: 25vw;
               width: 40vw;
               margin: auto 1vw;
-              background-image: url("/img/uttarakhand/row5_slide3.jpg");
+              background-image: url("../img/uttarakhand/row5_slide3.jpg");
               background-size: cover;
               background-repeat: no-repeat; }
             body .background .container .row5 .container .slider4 .slider_outer .slider_inner .slide3 p {
@@ -710,7 +710,7 @@ body .background .container .row5 {
       height: 10vw;
       width: 30vw;
       margin: 0 auto;
-      background-image: url("/img/uttarakhand.png");
+      background-image: url("../img/uttarakhand.png");
       background-size: cover;
       background-repeat: no-repeat;
       cursor: pointer; }
@@ -795,7 +795,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-image: url("/img/background.jpg");
+    background-image: url("../img/background.jpg");
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: center; }
@@ -816,7 +816,7 @@ body {
   body .background {
     height: 420vh;
     width: 98.9vw;
-    background-image: url("/img/backgroundII.jpg");
+    background-image: url("../img/backgroundII.jpg");
     background-size: 130%;
     overflow: hidden; }
     body .background .container {

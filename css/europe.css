@@ -17,7 +17,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-image: url("/img/europe/europe_background.jpg");
+    background-image: url("../img/europe/europe_background.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top; }
@@ -79,7 +79,7 @@ body {
           display: flex;
           flex-direction: row;
           justify-content: space-between;
-          background-image: url("/img/track.png");
+          background-image: url("../img/track.png");
           background-size: cover;
           background-repeat: no-repeat; }
           body .background .container .posts .container .post {
@@ -104,13 +104,13 @@ body {
             cursor: pointer;
             text-decoration: none; }
           body .background .container .posts .container .post1 .pic {
-            background-image: url("/img/europe/paris.jpg");
+            background-image: url("../img/europe/paris.jpg");
             background-position: 50% 70%; }
           body .background .container .posts .container .post2 .pic {
-            background-image: url("/img/europe/barcelona.jpg");
+            background-image: url("../img/europe/barcelona.jpg");
             background-position: bottom; }
           body .background .container .posts .container .post3 .pic {
-            background-image: url("/img/europe/amsterdam.jpg"); }
+            background-image: url("../img/europe/amsterdam.jpg"); }
       body .background .container .navbar {
         display: none; }
 
@@ -234,7 +234,7 @@ body {
         body .background .container .posts .container .post {
           height: 30%;
           width: 100%;
-          background-image: url("/img/track.png"); }
+          background-image: url("../img/track.png"); }
         body .background .container .posts .container .pic {
           width: 50%; }
         body .background .container .posts .container a {

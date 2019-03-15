@@ -20,7 +20,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-image: url("/img/america/grandcanyon/grandcanyon_background.jpg");
+    background-image: url("../img/america/grandcanyon/grandcanyon_background.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -52,7 +52,7 @@ body{
           display: flex;
           flex-direction: row;
           justify-content: space-between;
-          background-image: url("/img/track.png");
+          background-image: url("../img/track.png");
           background-size: 100% 100%;
           background-repeat: no-repeat;
         }
@@ -132,7 +132,7 @@ body{
         .paragraph1{
           .container{
             .pic{
-              background-image: url("/img/america/grandcanyon/canyon_p1.jpg");
+              background-image: url("../img/america/grandcanyon/canyon_p1.jpg");
               background-position: 50% 25%;
             }
           }
@@ -142,7 +142,7 @@ body{
         .paragraph2{
           .container{
             .pic{
-              background-image: url("/img/america/grandcanyon/canyon_p2.jpg");
+              background-image: url("../img/america/grandcanyon/canyon_p2.jpg");
               background-position: bottom;
             }
           }
@@ -152,7 +152,7 @@ body{
         .paragraph3{
           .container{
             .pic{
-                background-image: url("/img/america/grandcanyon/canyon_p3.jpg");
+                background-image: url("../img/america/grandcanyon/canyon_p3.jpg");
                 background-position: 50% 85%;
             }
           }
@@ -316,7 +316,7 @@ body{
               display: flex;
               flex-direction: row;
               justify-content: center;
-              background-image: url("/img/track.png");
+              background-image: url("../img/track.png");
               background-size: 100% 100%;
               background-repeat: no-repeat;
             }

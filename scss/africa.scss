@@ -20,7 +20,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-image: url("/img/africa/africa_background.jpg");
+    background-image: url("../img/africa/africa_background.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
@@ -90,7 +90,7 @@ body{
           display: flex;
           flex-direction: row;
           justify-content: space-between;
-          background-image: url("/img/track.png");
+          background-image: url("../img/track.png");
           background-size: cover;
           background-repeat: no-repeat;
           .post{
@@ -120,17 +120,17 @@ body{
           }
             .post1{
               .pic{
-                background-image: url("/img/africa/krugerpark.jpg");
+                background-image: url("../img/africa/krugerpark.jpg");
               }
             }
             .post2{
               .pic{
-                background-image: url("/img/africa/capetown.jpg");
+                background-image: url("../img/africa/capetown.jpg");
               }
             }
             .post3{
               .pic{
-                background-image: url("/img/africa/namibia.jpg");
+                background-image: url("../img/africa/namibia.jpg");
               }
             }
           }
@@ -296,7 +296,7 @@ body{
             .post{
               height: 30%;
               width: 100%;
-              background-image: url("/img/track.png");
+              background-image: url("../img/track.png");
             }
             .pic{
               width: 50%;

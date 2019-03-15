@@ -17,7 +17,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-image: url("/img/america/lasvegas/lasvegas_background.jpg");
+    background-image: url("../img/america/lasvegas/lasvegas_background.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center; }
@@ -47,7 +47,7 @@ body {
           display: flex;
           flex-direction: row;
           justify-content: space-between;
-          background-image: url("/img/track.png");
+          background-image: url("../img/track.png");
           background-size: 100% 100%;
           background-repeat: no-repeat; }
       body .background .container .pic {
@@ -110,12 +110,12 @@ body {
               margin-right: 1vw;
               font-size: 2vw; }
       body .background .container .section1 .paragraph1 .container .pic {
-        background-image: url("/img/america/lasvegas/vegas_p1.jpg"); }
+        background-image: url("../img/america/lasvegas/vegas_p1.jpg"); }
       body .background .container .section2 .paragraph2 .container .pic {
         background-image: url("/img/america/lasvegas/vegas_p2.jpg");
         background-position: bottom; }
       body .background .container .section3 .paragraph3 .container .pic {
-        background-image: url("/img/america/lasvegas/vegas_p3.jpg"); }
+        background-image: url("../img/america/lasvegas/vegas_p3.jpg"); }
       body .background .container .navbar {
         display: none; }
 
@@ -239,7 +239,7 @@ body {
           display: flex;
           flex-direction: row;
           justify-content: center;
-          background-image: url("/img/track.png");
+          background-image: url("../img/track.png");
           background-size: 100% 100%;
           background-repeat: no-repeat; }
       body .background .container .section .pic {

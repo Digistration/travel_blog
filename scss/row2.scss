@@ -34,7 +34,7 @@ body{
               height: 15vw;
               width: 14.75vw;
               margin: auto;
-              background-image: url("/img/logo.png");
+              background-image: url("../img/logo.png");
               background-size: cover;
               background-repeat: no-repeat;
               cursor: pointer;
@@ -60,7 +60,7 @@ body{
             flex-direction: row;
             text-align: center;
             justify-content: center;
-            background-image: url("/img/track.png");
+            background-image: url("../img/track.png");
             background-size: 97.5%;
             background-repeat: no-repeat;
             background-position: center;
@@ -107,7 +107,7 @@ body{
                     height: 25vw;
                     width: 40vw;
                     margin: auto 1vw;
-                    background-image: url("/img/shanghai/row2_slide1.jpg");
+                    background-image: url("../img/shanghai/row2_slide1.jpg");
                     background-size: cover;
                     background-repeat: no-repeat;
                     background-position: center;
@@ -131,7 +131,7 @@ body{
                     height: 25vw;
                     width: 40vw;
                     margin: auto 1vw;
-                    background-image: url("/img/shanghai/row2_slide2.jpg");
+                    background-image: url("../img/shanghai/row2_slide2.jpg");
                     background-size: cover;
                     background-repeat: no-repeat;
                     background-position: center;
@@ -155,7 +155,7 @@ body{
                     height: 25vw;
                     width: 40vw;
                     margin: auto 1vw;
-                    background-image: url("/img/shanghai/row2_slide3.jpg");
+                    background-image: url("../img/shanghai/row2_slide3.jpg");
                     background-size: cover;
                     background-repeat: no-repeat;
                     background-position: center;
@@ -179,7 +179,7 @@ body{
             height: 10.25vw;
             width: 25vw;
             margin: 0 auto;
-            background-image: url("/img/shanghai.png");
+            background-image: url("../img/shanghai.png");
             background-size: cover;
             background-repeat: no-repeat;
             cursor: pointer;

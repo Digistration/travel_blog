@@ -20,7 +20,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-image: url("/img/asia/asia_background.jpg");
+    background-image: url("../img/asia/asia_background.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
@@ -93,24 +93,24 @@ body{
           display: flex;
           flex-direction: row;
           justify-content: space-between;
-          background-image: url("/img/track.png");
+          background-image: url("../img/track.png");
           background-size: cover;
           background-repeat: no-repeat;
         }
         .post1{
           .pic{
-            background-image: url("/img/asia/tokyo.jpg");
+            background-image: url("../img/asia/tokyo.jpg");
           }
         }
         .post2{
           .pic{
-            background-image: url("/img/asia/india.jpg");
+            background-image: url("../img/asia/india.jpg");
             background-position: 47.5% 50%;
           }
         }
         .post3{
           .pic{
-            background-image: url("/img/asia/vietnam.jpg");
+            background-image: url("../img/asia/vietnam.jpg");
           }
         }
         .post{
@@ -299,7 +299,7 @@ body{
             .post{
               height: 30%;
               width: 100%;
-              background-image: url("/img/track.png");
+              background-image: url("../img/track.png");
             }
             .pic{
               width: 50%;

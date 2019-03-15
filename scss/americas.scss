@@ -20,7 +20,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-image: url("/img/america/america_background.jpg");
+    background-image: url("../img/america/america_background.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
@@ -90,7 +90,7 @@ body{
           display: flex;
           flex-direction: row;
           justify-content: space-between;
-          background-image: url("/img/track.png");
+          background-image: url("../img/track.png");
           background-size: cover;
           background-repeat: no-repeat;
 
@@ -122,17 +122,17 @@ body{
 
           .post1{
             .pic{
-              background-image: url("/img/america/newyork.jpg");
+              background-image: url("../img/america/newyork.jpg");
             }
           }
           .post2{
             .pic{
-              background-image: url("/img/america/lasvegas.jpg");
+              background-image: url("../img/america/lasvegas.jpg");
             }
           }
           .post3{
             .pic{
-              background-image: url("/img/america/grandcanyon.jpg");
+              background-image: url("../img/america/grandcanyon.jpg");
             }
           }
         }
@@ -298,7 +298,7 @@ body{
             .post{
               height: 30%;
               width: 100%;
-              background-image: url("/img/track.png");
+              background-image: url("../img/track.png");
             }
             .pic{
               width: 50%;
