@@ -1,6 +1,6 @@
 @font-face {
   font-family: riveradventure;
-  src: url("/img/River Adventure Personal Use.ttf");
+  src: url("../img/River Adventure Personal Use.ttf");
 }
 
 body{
@@ -142,7 +142,7 @@ body{
         .paragraph2{
           .container{
             .pic{
-              background-image: url("/img/europe/barcelona/barcelona_p2.jpg");
+              background-image: url("../img/europe/barcelona/barcelona_p2.jpg");
               background-position: 0% 65%;
             }
           }

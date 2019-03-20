@@ -1,6 +1,6 @@
 @font-face {
   font-family: riveradventure;
-  src: url("/img/River Adventure Personal Use.ttf"); }
+  src: url("../img/River Adventure Personal Use.ttf"); }
 body {
   margin: 0;
   padding: 0;
@@ -112,7 +112,7 @@ body {
       body .background .container .section1 .paragraph1 .container .pic {
         background-image: url("../img/america/lasvegas/vegas_p1.jpg"); }
       body .background .container .section2 .paragraph2 .container .pic {
-        background-image: url("/img/america/lasvegas/vegas_p2.jpg");
+        background-image: url("../img/america/lasvegas/vegas_p2.jpg");
         background-position: bottom; }
       body .background .container .section3 .paragraph3 .container .pic {
         background-image: url("../img/america/lasvegas/vegas_p3.jpg"); }
