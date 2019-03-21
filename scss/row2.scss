@@ -65,19 +65,17 @@ body{
             background-repeat: no-repeat;
             background-position: center;
             i{
-              position: absolute;
+              margin: auto;
               font-size: 3.5vw;
               color: #fff;
               z-index: 100;
               cursor: pointer;
             }
             #s1_btn_prev{
-              left: 5vw;
-              top: 14vw;
+              margin-left: 7.5vw;
             }
             #s1_btn_next{
-              right: 5vw;
-              top: 14vw;
+              margin-right: 7.5vw;
             }
 
             .slider_outer{
@@ -92,20 +90,22 @@ body{
                 height: 30vw;
                 width: 100%;
                 margin: auto;
+                padding: 0;
                 display: flex;
                 flex-direction: row;
                 position: relative;
                 overflow: hidden;
 
                 .slide1{
-                  width: 75%;
-                  margin: auto 10vw;
+                  height: 90%;
+                  width: 90%;
+                  margin: auto;
                   display: none;
                   flex-direction: row;
                   justify-content: center;
                   .pic_box{
-                    height: 25vw;
-                    width: 40vw;
+                    height: 90%;
+                    width: 50%;
                     margin: auto 1vw;
                     background-image: url("../img/shanghai/row2_slide1.jpg");
                     background-size: cover;
@@ -113,7 +113,8 @@ body{
                     background-position: center;
                   }
                   p{
-                    width: 30vw;
+                    height: 60%;
+                    width: 50%;
                     margin: auto 1vw;
                     font-family: 'Ubuntu';
                     font-size: 2vw;
@@ -122,14 +123,15 @@ body{
                 }
 
                 .slide2{
-                  width: 75%;
-                  margin: auto 10vw;
+                  height: 90%;
+                  width: 90%;
+                  margin: auto;
                   display: none;
                   flex-direction: row;
                   justify-content: center;
                   .pic_box{
-                    height: 25vw;
-                    width: 40vw;
+                    height: 90%;
+                    width: 50%;
                     margin: auto 1vw;
                     background-image: url("../img/shanghai/row2_slide2.jpg");
                     background-size: cover;
@@ -137,7 +139,8 @@ body{
                     background-position: center;
                   }
                   p{
-                    width: 30vw;
+                    height: 60%;
+                    width: 50%;
                     margin: auto 1vw;
                     font-family: 'Ubuntu';
                     font-size: 2vw;
@@ -146,14 +149,15 @@ body{
                 }
 
                 .slide3{
-                  width: 75%;
-                  margin: auto 10vw;
+                  height: 90%;
+                  width: 90%;
+                  margin: auto;
                   display: none;
                   flex-direction: row;
                   justify-content: center;
                   .pic_box{
-                    height: 25vw;
-                    width: 40vw;
+                    height: 90%;
+                    width: 50%;
                     margin: auto 1vw;
                     background-image: url("../img/shanghai/row2_slide3.jpg");
                     background-size: cover;
@@ -161,7 +165,8 @@ body{
                     background-position: center;
                   }
                   p{
-                    width: 30vw;
+                    height: 60%;
+                    width: 50%;
                     margin: auto 1vw;
                     font-family: 'Ubuntu';
                     font-size: 2vw;
@@ -195,6 +200,7 @@ body{
     .background{
       .container{
         .row2{
+          height: 100vh;
           .header{
             .col1{
               display: none;
@@ -203,11 +209,12 @@ body{
               display: none;
             }
             .col3{
-              width: 30%;
+              height: 95%;
+              width: 40%;
               margin: auto;
               .logo{
-                height: 20vw;
-                width: 25vw;
+                height: 100%;
+                width: 100%;
               }
             }
             .col4{
@@ -219,77 +226,43 @@ body{
           }
 
           .container{
-            height: 70%;
-            margin: auto;
-            margin-top: 40%;
-
+            margin: 0;
             .slider1{
-              height: 45%;
+              height: 80%;
               display: flex;
               flex-direction: column;
-              background-size: 150%;
+              background-image: none;
               i{
                 font-size: 10vw;
               }
               #s1_btn_prev{
-                left: 2vw;
-                top: 17.5vw;
+                margin-left: 1vw;
               }
               #s1_btn_next{
-                right: 2vw;
-                top: 17.5vw;
+                margin-right: 1vw;
               }
 
               .slider_outer{
-                height: 90%;
+                height: 50%;
                 margin: auto;
                 display: flex;
-                flex-direction: column;
+                flex-direction: row;
+                background-image: url("../img/track.png");
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: 102.5% 100%;
 
                 .slider_inner{
-                  height: 100%;
+                  height: 95%;
                   margin: auto;
                   padding: 0;
 
-                  .slide1{
-                    height: 100%;
-                    width: 75%;
-                    margin: auto;
-                    .pic_box{
-                      height: 100%;
-                      width: 45%;
-                    }
+                  .slide{
+                    height: 95%;
+                    width: 95%;
                     p{
-                      width: 45%;
-                      font-size: 3vw;
-                    }
-                  }
-
-                  .slide2{
-                    height: 100%;
-                    width: 75%;
-                    margin: auto;
-                    .pic_box{
-                      height: 100%;
-                      width: 45%;
-                    }
-                    p{
-                      width: 45%;
-                      font-size: 3vw;
-                    }
-                  }
-
-                  .slide3{
-                    height: 100%;
-                    width: 75%;
-                    margin: auto;
-                    .pic_box{
-                      height: 100%;
-                      width: 45%;
-                    }
-                    p{
-                      width: 45%;
-                      font-size: 3vw;
+                      height: 90%;
+                      font-size: 1.98vh;
                     }
                   }
                   .active{
@@ -298,12 +271,16 @@ body{
                 }
               }
             }
-
-            .shanghai{
-              height: 15vw;
-              width: 30vw;
-              margin: auto;
-              margin-top: 40%;
+            .location{
+              height: 20%;
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              .shanghai{
+                height: 80%;
+                width: 52.5%;
+                margin: auto;
+              }
             }
           }
         }

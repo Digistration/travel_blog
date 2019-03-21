@@ -152,19 +152,19 @@ body{
 
           .side-nav{
             right: 0;
-            height: 50vw;
+            height: 50%;
             width: 0;
             z-index: 100;
             position: absolute;
             overflow-x: hidden;
-            margin-top: 12.5vw;
+            margin-top: 35%;
             transition: 0.5s;
             background-image: url("../img/track.png");
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
             display: flex;
-            flex-direction: column;
+            flex-direction: row;
             a, a:visited{
               margin: auto;
               color: white;
@@ -178,7 +178,7 @@ body{
             }
           }
           .open-menu{
-            width: 35vw;
+            width: 100%;
           }
         }
         .row{

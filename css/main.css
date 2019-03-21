@@ -52,17 +52,15 @@ body .background .container .row2 {
       background-repeat: no-repeat;
       background-position: center; }
       body .background .container .row2 .container .slider1 i {
-        position: absolute;
+        margin: auto;
         font-size: 3.5vw;
         color: #fff;
         z-index: 100;
         cursor: pointer; }
       body .background .container .row2 .container .slider1 #s1_btn_prev {
-        left: 5vw;
-        top: 14vw; }
+        margin-left: 7.5vw; }
       body .background .container .row2 .container .slider1 #s1_btn_next {
-        right: 5vw;
-        top: 14vw; }
+        margin-right: 7.5vw; }
       body .background .container .row2 .container .slider1 .slider_outer {
         height: 30vw;
         width: 100%;
@@ -74,66 +72,73 @@ body .background .container .row2 {
           height: 30vw;
           width: 100%;
           margin: auto;
+          padding: 0;
           display: flex;
           flex-direction: row;
           position: relative;
           overflow: hidden; }
           body .background .container .row2 .container .slider1 .slider_outer .slider_inner .slide1 {
-            width: 75%;
-            margin: auto 10vw;
+            height: 90%;
+            width: 90%;
+            margin: auto;
             display: none;
             flex-direction: row;
             justify-content: center; }
             body .background .container .row2 .container .slider1 .slider_outer .slider_inner .slide1 .pic_box {
-              height: 25vw;
-              width: 40vw;
+              height: 90%;
+              width: 50%;
               margin: auto 1vw;
               background-image: url("../img/shanghai/row2_slide1.jpg");
               background-size: cover;
               background-repeat: no-repeat;
               background-position: center; }
             body .background .container .row2 .container .slider1 .slider_outer .slider_inner .slide1 p {
-              width: 30vw;
+              height: 60%;
+              width: 50%;
               margin: auto 1vw;
               font-family: 'Ubuntu';
               font-size: 2vw;
               color: white; }
           body .background .container .row2 .container .slider1 .slider_outer .slider_inner .slide2 {
-            width: 75%;
-            margin: auto 10vw;
+            height: 90%;
+            width: 90%;
+            margin: auto;
             display: none;
             flex-direction: row;
             justify-content: center; }
             body .background .container .row2 .container .slider1 .slider_outer .slider_inner .slide2 .pic_box {
-              height: 25vw;
-              width: 40vw;
+              height: 90%;
+              width: 50%;
               margin: auto 1vw;
               background-image: url("../img/shanghai/row2_slide2.jpg");
               background-size: cover;
               background-repeat: no-repeat;
               background-position: center; }
             body .background .container .row2 .container .slider1 .slider_outer .slider_inner .slide2 p {
-              width: 30vw;
+              height: 60%;
+              width: 50%;
               margin: auto 1vw;
               font-family: 'Ubuntu';
               font-size: 2vw;
               color: white; }
           body .background .container .row2 .container .slider1 .slider_outer .slider_inner .slide3 {
-            width: 75%;
-            margin: auto 10vw;
+            height: 90%;
+            width: 90%;
+            margin: auto;
             display: none;
             flex-direction: row;
             justify-content: center; }
             body .background .container .row2 .container .slider1 .slider_outer .slider_inner .slide3 .pic_box {
-              height: 25vw;
-              width: 40vw;
+              height: 90%;
+              width: 50%;
               margin: auto 1vw;
               background-image: url("../img/shanghai/row2_slide3.jpg");
               background-size: cover;
               background-repeat: no-repeat;
               background-position: center; }
             body .background .container .row2 .container .slider1 .slider_outer .slider_inner .slide3 p {
-              width: 30vw;
+              height: 60%;
+              width: 50%;
               margin: auto 1vw;
               font-family: 'Ubuntu';
               font-size: 2vw;
@@ -150,83 +155,66 @@ body .background .container .row2 {
       cursor: pointer; }
 
 @media only screen and (max-width: 800px) {
-  body .background .container .row2 .header .col1 {
-    display: none; }
-  body .background .container .row2 .header .col2 {
-    display: none; }
-  body .background .container .row2 .header .col3 {
-    width: 30%;
-    margin: auto; }
-    body .background .container .row2 .header .col3 .logo {
-      height: 20vw;
-      width: 25vw; }
-  body .background .container .row2 .header .col4 {
-    display: none; }
-  body .background .container .row2 .header .col5 {
-    display: none; }
-  body .background .container .row2 .container {
-    height: 70%;
-    margin: auto;
-    margin-top: 40%; }
-    body .background .container .row2 .container .slider1 {
-      height: 45%;
-      display: flex;
-      flex-direction: column;
-      background-size: 150%; }
-      body .background .container .row2 .container .slider1 i {
-        font-size: 10vw; }
-      body .background .container .row2 .container .slider1 #s1_btn_prev {
-        left: 2vw;
-        top: 17.5vw; }
-      body .background .container .row2 .container .slider1 #s1_btn_next {
-        right: 2vw;
-        top: 17.5vw; }
-      body .background .container .row2 .container .slider1 .slider_outer {
-        height: 90%;
-        margin: auto;
+  body .background .container .row2 {
+    height: 100vh; }
+    body .background .container .row2 .header .col1 {
+      display: none; }
+    body .background .container .row2 .header .col2 {
+      display: none; }
+    body .background .container .row2 .header .col3 {
+      height: 95%;
+      width: 40%;
+      margin: auto; }
+      body .background .container .row2 .header .col3 .logo {
+        height: 100%;
+        width: 100%; }
+    body .background .container .row2 .header .col4 {
+      display: none; }
+    body .background .container .row2 .header .col5 {
+      display: none; }
+    body .background .container .row2 .container {
+      margin: 0; }
+      body .background .container .row2 .container .slider1 {
+        height: 80%;
         display: flex;
-        flex-direction: column; }
-        body .background .container .row2 .container .slider1 .slider_outer .slider_inner {
-          height: 100%;
+        flex-direction: column;
+        background-image: none; }
+        body .background .container .row2 .container .slider1 i {
+          font-size: 10vw; }
+        body .background .container .row2 .container .slider1 #s1_btn_prev {
+          margin-left: 1vw; }
+        body .background .container .row2 .container .slider1 #s1_btn_next {
+          margin-right: 1vw; }
+        body .background .container .row2 .container .slider1 .slider_outer {
+          height: 50%;
           margin: auto;
-          padding: 0; }
-          body .background .container .row2 .container .slider1 .slider_outer .slider_inner .slide1 {
-            height: 100%;
-            width: 75%;
-            margin: auto; }
-            body .background .container .row2 .container .slider1 .slider_outer .slider_inner .slide1 .pic_box {
-              height: 100%;
-              width: 45%; }
-            body .background .container .row2 .container .slider1 .slider_outer .slider_inner .slide1 p {
-              width: 45%;
-              font-size: 3vw; }
-          body .background .container .row2 .container .slider1 .slider_outer .slider_inner .slide2 {
-            height: 100%;
-            width: 75%;
-            margin: auto; }
-            body .background .container .row2 .container .slider1 .slider_outer .slider_inner .slide2 .pic_box {
-              height: 100%;
-              width: 45%; }
-            body .background .container .row2 .container .slider1 .slider_outer .slider_inner .slide2 p {
-              width: 45%;
-              font-size: 3vw; }
-          body .background .container .row2 .container .slider1 .slider_outer .slider_inner .slide3 {
-            height: 100%;
-            width: 75%;
-            margin: auto; }
-            body .background .container .row2 .container .slider1 .slider_outer .slider_inner .slide3 .pic_box {
-              height: 100%;
-              width: 45%; }
-            body .background .container .row2 .container .slider1 .slider_outer .slider_inner .slide3 p {
-              width: 45%;
-              font-size: 3vw; }
-          body .background .container .row2 .container .slider1 .slider_outer .slider_inner .active {
-            display: flex; }
-    body .background .container .row2 .container .shanghai {
-      height: 15vw;
-      width: 30vw;
-      margin: auto;
-      margin-top: 40%; } }
+          display: flex;
+          flex-direction: row;
+          background-image: url("../img/track.png");
+          background-repeat: no-repeat;
+          background-position: center;
+          background-size: 102.5% 100%; }
+          body .background .container .row2 .container .slider1 .slider_outer .slider_inner {
+            height: 95%;
+            margin: auto;
+            padding: 0; }
+            body .background .container .row2 .container .slider1 .slider_outer .slider_inner .slide {
+              height: 95%;
+              width: 95%; }
+              body .background .container .row2 .container .slider1 .slider_outer .slider_inner .slide p {
+                height: 90%;
+                font-size: 1.98vh; }
+            body .background .container .row2 .container .slider1 .slider_outer .slider_inner .active {
+              display: flex; }
+      body .background .container .row2 .container .location {
+        height: 20%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center; }
+        body .background .container .row2 .container .location .shanghai {
+          height: 80%;
+          width: 52.5%;
+          margin: auto; } }
 body .background .container .row3 {
   height: 29%;
   display: flex;
@@ -251,17 +239,15 @@ body .background .container .row3 {
       background-repeat: no-repeat;
       background-position: center; }
       body .background .container .row3 .container .slider2 i {
-        position: absolute;
+        margin: auto;
         font-size: 3.5vw;
         color: #fff;
         z-index: 100;
         cursor: pointer; }
       body .background .container .row3 .container .slider2 #s2_btn_prev {
-        left: 5vw;
-        top: 14vw; }
+        margin-left: 7.5vw; }
       body .background .container .row3 .container .slider2 #s2_btn_next {
-        right: 5vw;
-        top: 14vw; }
+        margin-right: 7.5vw; }
       body .background .container .row3 .container .slider2 .slider_outer {
         height: 30vw;
         width: 100%;
@@ -273,66 +259,73 @@ body .background .container .row3 {
           height: 30vw;
           width: 100%;
           margin: auto;
+          padding: 0;
           display: flex;
           flex-direction: row;
           position: relative;
           overflow: hidden; }
           body .background .container .row3 .container .slider2 .slider_outer .slider_inner .slide1 {
-            width: 75%;
-            margin: auto 10vw;
+            height: 90%;
+            width: 90%;
+            margin: auto;
             display: none;
             flex-direction: row;
             justify-content: center; }
             body .background .container .row3 .container .slider2 .slider_outer .slider_inner .slide1 .pic_box {
-              height: 25vw;
-              width: 40vw;
+              height: 90%;
+              width: 50%;
               margin: auto 1vw;
               background-image: url("../img/westfjord/row3_slide1.jpg");
               background-size: cover;
               background-repeat: no-repeat;
               background-position: center; }
             body .background .container .row3 .container .slider2 .slider_outer .slider_inner .slide1 p {
-              width: 30vw;
+              height: 60%;
+              width: 50%;
               margin: auto 1vw;
               font-family: 'Ubuntu';
               font-size: 2vw;
               color: white; }
           body .background .container .row3 .container .slider2 .slider_outer .slider_inner .slide2 {
-            width: 75%;
-            margin: auto 10vw;
+            height: 90%;
+            width: 90%;
+            margin: auto;
             display: none;
             flex-direction: row;
             justify-content: center; }
             body .background .container .row3 .container .slider2 .slider_outer .slider_inner .slide2 .pic_box {
-              height: 25vw;
-              width: 40vw;
+              height: 90%;
+              width: 50%;
               margin: auto 1vw;
               background-image: url("../img/westfjord/row3_slide2.jpg");
               background-size: cover;
               background-repeat: no-repeat;
               background-position: center; }
             body .background .container .row3 .container .slider2 .slider_outer .slider_inner .slide2 p {
-              width: 30vw;
+              height: 60%;
+              width: 50%;
               margin: auto 1vw;
               font-family: 'Ubuntu';
               font-size: 2vw;
               color: white; }
           body .background .container .row3 .container .slider2 .slider_outer .slider_inner .slide3 {
-            width: 75%;
-            margin: auto 10vw;
+            height: 90%;
+            width: 90%;
+            margin: auto;
             display: none;
             flex-direction: row;
             justify-content: center; }
             body .background .container .row3 .container .slider2 .slider_outer .slider_inner .slide3 .pic_box {
-              height: 25vw;
-              width: 40vw;
+              height: 90%;
+              width: 50%;
               margin: auto 1vw;
               background-image: url("../img/westfjord/row3_slide3.jpg");
               background-size: cover;
               background-repeat: no-repeat;
               background-position: center; }
             body .background .container .row3 .container .slider2 .slider_outer .slider_inner .slide3 p {
-              width: 30vw;
+              height: 60%;
+              width: 50%;
               margin: auto 1vw;
               font-family: 'Ubuntu';
               font-size: 2vw;
@@ -349,69 +342,52 @@ body .background .container .row3 {
       cursor: pointer; }
 
 @media only screen and (max-width: 800px) {
-  body .background .container .row3 .container {
-    height: 100%;
-    margin: auto;
-    margin-top: 70%; }
-    body .background .container .row3 .container .slider2 {
-      height: 45%;
-      display: flex;
-      flex-direction: column;
-      background-size: 150%; }
-      body .background .container .row3 .container .slider2 i {
-        font-size: 10vw; }
-      body .background .container .row3 .container .slider2 #s2_btn_prev {
-        left: 2vw;
-        top: 17.5vw; }
-      body .background .container .row3 .container .slider2 #s2_btn_next {
-        right: 2vw;
-        top: 17.5vw; }
-      body .background .container .row3 .container .slider2 .slider_outer {
-        height: 90%;
-        margin: auto;
+  body .background .container .row3 {
+    height: 100vh; }
+    body .background .container .row3 .container {
+      margin: 0;
+      margin-top: 25%; }
+      body .background .container .row3 .container .slider2 {
+        height: 80%;
         display: flex;
-        flex-direction: column; }
-        body .background .container .row3 .container .slider2 .slider_outer .slider_inner {
-          height: 100%;
+        flex-direction: column;
+        background-image: none; }
+        body .background .container .row3 .container .slider2 i {
+          font-size: 10vw; }
+        body .background .container .row3 .container .slider2 #s2_btn_prev {
+          margin-left: 1vw; }
+        body .background .container .row3 .container .slider2 #s2_btn_next {
+          margin-right: 1vw; }
+        body .background .container .row3 .container .slider2 .slider_outer {
+          height: 50%;
           margin: auto;
-          padding: 0; }
-          body .background .container .row3 .container .slider2 .slider_outer .slider_inner .slide1 {
-            height: 100%;
-            width: 75%;
-            margin: auto; }
-            body .background .container .row3 .container .slider2 .slider_outer .slider_inner .slide1 .pic_box {
-              height: 100%;
-              width: 45%; }
-            body .background .container .row3 .container .slider2 .slider_outer .slider_inner .slide1 p {
-              width: 45%;
-              font-size: 3vw; }
-          body .background .container .row3 .container .slider2 .slider_outer .slider_inner .slide2 {
-            height: 100%;
-            width: 75%;
-            margin: auto; }
-            body .background .container .row3 .container .slider2 .slider_outer .slider_inner .slide2 .pic_box {
-              height: 100%;
-              width: 45%; }
-            body .background .container .row3 .container .slider2 .slider_outer .slider_inner .slide2 p {
-              width: 45%;
-              font-size: 3vw; }
-          body .background .container .row3 .container .slider2 .slider_outer .slider_inner .slide3 {
-            height: 100%;
-            width: 75%;
-            margin: auto; }
-            body .background .container .row3 .container .slider2 .slider_outer .slider_inner .slide3 .pic_box {
-              height: 100%;
-              width: 45%; }
-            body .background .container .row3 .container .slider2 .slider_outer .slider_inner .slide3 p {
-              width: 45%;
-              font-size: 3vw; }
-          body .background .container .row3 .container .slider2 .slider_outer .slider_inner .active {
-            display: flex; }
-    body .background .container .row3 .container .westfjords {
-      height: 15vw;
-      width: 50vw;
-      margin: auto;
-      margin-top: 35%; } }
+          display: flex;
+          flex-direction: row;
+          background-image: url("../img/track.png");
+          background-repeat: no-repeat;
+          background-position: center;
+          background-size: 102.5% 100%; }
+          body .background .container .row3 .container .slider2 .slider_outer .slider_inner {
+            height: 95%;
+            margin: auto;
+            padding: 0; }
+            body .background .container .row3 .container .slider2 .slider_outer .slider_inner .slide {
+              height: 95%;
+              width: 95%; }
+              body .background .container .row3 .container .slider2 .slider_outer .slider_inner .slide p {
+                height: 90%;
+                font-size: 1.98vh; }
+            body .background .container .row3 .container .slider2 .slider_outer .slider_inner .active {
+              display: flex; }
+      body .background .container .row3 .container .location {
+        height: 20%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center; }
+        body .background .container .row3 .container .location .westfjords {
+          height: 80%;
+          width: 80%;
+          margin: auto; } }
 body .background .container .row4 {
   height: 22%;
   display: flex;
@@ -436,17 +412,15 @@ body .background .container .row4 {
       background-repeat: no-repeat;
       background-position: center; }
       body .background .container .row4 .container .slider3 i {
-        position: absolute;
+        margin: auto;
         font-size: 3.5vw;
         color: #fff;
         z-index: 100;
         cursor: pointer; }
       body .background .container .row4 .container .slider3 #s3_btn_prev {
-        left: 5vw;
-        top: 14vw; }
+        margin-left: 7.5vw; }
       body .background .container .row4 .container .slider3 #s3_btn_next {
-        right: 5vw;
-        top: 14vw; }
+        margin-right: 7.5vw; }
       body .background .container .row4 .container .slider3 .slider_outer {
         height: 30vw;
         width: 100%;
@@ -458,66 +432,73 @@ body .background .container .row4 {
           height: 30vw;
           width: 100%;
           margin: auto;
+          padding: 0;
           display: flex;
           flex-direction: row;
           position: relative;
           overflow: hidden; }
           body .background .container .row4 .container .slider3 .slider_outer .slider_inner .slide1 {
-            width: 75%;
-            margin: auto 10vw;
+            height: 90%;
+            width: 90%;
+            margin: auto;
             display: none;
             flex-direction: row;
             justify-content: center; }
             body .background .container .row4 .container .slider3 .slider_outer .slider_inner .slide1 .pic_box {
-              height: 25vw;
-              width: 40vw;
+              height: 90%;
+              width: 50%;
               margin: auto 1vw;
               background-image: url("../img/parbat/row4_slide1.jpg");
               background-size: cover;
               background-repeat: no-repeat;
               background-position: center; }
             body .background .container .row4 .container .slider3 .slider_outer .slider_inner .slide1 p {
-              width: 30vw;
+              height: 60%;
+              width: 50%;
               margin: auto 1vw;
               font-family: 'Ubuntu';
               font-size: 2vw;
               color: white; }
           body .background .container .row4 .container .slider3 .slider_outer .slider_inner .slide2 {
-            width: 75%;
-            margin: auto 10vw;
+            height: 90%;
+            width: 90%;
+            margin: auto;
             display: none;
             flex-direction: row;
             justify-content: center; }
             body .background .container .row4 .container .slider3 .slider_outer .slider_inner .slide2 .pic_box {
-              height: 25vw;
-              width: 40vw;
+              height: 90%;
+              width: 50%;
               margin: auto 1vw;
               background-image: url("../img/parbat/row4_slide2.jpg");
               background-size: cover;
               background-repeat: no-repeat;
               background-position: center; }
             body .background .container .row4 .container .slider3 .slider_outer .slider_inner .slide2 p {
-              width: 30vw;
+              height: 60%;
+              width: 50%;
               margin: auto 1vw;
               font-family: 'Ubuntu';
               font-size: 2vw;
               color: white; }
           body .background .container .row4 .container .slider3 .slider_outer .slider_inner .slide3 {
-            width: 75%;
-            margin: auto 10vw;
+            height: 90%;
+            width: 90%;
+            margin: auto;
             display: none;
             flex-direction: row;
             justify-content: center; }
             body .background .container .row4 .container .slider3 .slider_outer .slider_inner .slide3 .pic_box {
-              height: 25vw;
-              width: 40vw;
+              height: 90%;
+              width: 50%;
               margin: auto 1vw;
               background-image: url("../img/parbat/row4_slide3.jpg");
               background-size: cover;
               background-repeat: no-repeat;
               background-position: center; }
             body .background .container .row4 .container .slider3 .slider_outer .slider_inner .slide3 p {
-              width: 30vw;
+              height: 60%;
+              width: 50%;
               margin: auto 1vw;
               font-family: 'Ubuntu';
               font-size: 2vw;
@@ -534,71 +515,54 @@ body .background .container .row4 {
       cursor: pointer; }
 
 @media only screen and (max-width: 800px) {
-  body .background .container .row4 .container {
-    height: 100%;
-    margin: auto;
-    margin-top: 65%; }
-    body .background .container .row4 .container .slider3 {
-      height: 43.25%;
-      display: flex;
-      flex-direction: column;
-      background-size: 150%; }
-      body .background .container .row4 .container .slider3 i {
-        font-size: 10vw; }
-      body .background .container .row4 .container .slider3 #s3_btn_prev {
-        left: 2vw;
-        top: 17.5vw; }
-      body .background .container .row4 .container .slider3 #s3_btn_next {
-        right: 2vw;
-        top: 17.5vw; }
-      body .background .container .row4 .container .slider3 .slider_outer {
-        height: 90%;
-        margin: auto;
+  body .background .container .row4 {
+    height: 100vh; }
+    body .background .container .row4 .container {
+      margin: 0;
+      margin-top: 25%; }
+      body .background .container .row4 .container .slider3 {
+        height: 80%;
         display: flex;
-        flex-direction: column; }
-        body .background .container .row4 .container .slider3 .slider_outer .slider_inner {
-          height: 100%;
+        flex-direction: column;
+        background-image: none; }
+        body .background .container .row4 .container .slider3 i {
+          font-size: 10vw; }
+        body .background .container .row4 .container .slider3 #s3_btn_prev {
+          margin-left: 1vw; }
+        body .background .container .row4 .container .slider3 #s3_btn_next {
+          margin-right: 1vw; }
+        body .background .container .row4 .container .slider3 .slider_outer {
+          height: 50%;
           margin: auto;
-          padding: 0; }
-          body .background .container .row4 .container .slider3 .slider_outer .slider_inner .slide1 {
-            height: 100%;
-            width: 75%;
-            margin: auto; }
-            body .background .container .row4 .container .slider3 .slider_outer .slider_inner .slide1 .pic_box {
-              height: 100%;
-              width: 45%; }
-            body .background .container .row4 .container .slider3 .slider_outer .slider_inner .slide1 p {
-              width: 45%;
-              font-size: 3vw; }
-          body .background .container .row4 .container .slider3 .slider_outer .slider_inner .slide2 {
-            height: 100%;
-            width: 75%;
-            margin: auto; }
-            body .background .container .row4 .container .slider3 .slider_outer .slider_inner .slide2 .pic_box {
-              height: 100%;
-              width: 45%; }
-            body .background .container .row4 .container .slider3 .slider_outer .slider_inner .slide2 p {
-              width: 45%;
-              font-size: 3vw; }
-          body .background .container .row4 .container .slider3 .slider_outer .slider_inner .slide3 {
-            height: 100%;
-            width: 75%;
-            margin: auto; }
-            body .background .container .row4 .container .slider3 .slider_outer .slider_inner .slide3 .pic_box {
-              height: 100%;
-              width: 45%; }
-            body .background .container .row4 .container .slider3 .slider_outer .slider_inner .slide3 p {
-              width: 45%;
-              font-size: 3vw; }
-          body .background .container .row4 .container .slider3 .slider_outer .slider_inner .active {
-            display: flex; }
-    body .background .container .row4 .container .parbat {
-      height: 15vw;
-      width: 30vw;
-      margin: auto;
-      margin-top: 45%; } }
+          display: flex;
+          flex-direction: row;
+          background-image: url("../img/track.png");
+          background-repeat: no-repeat;
+          background-position: center;
+          background-size: 102.5% 100%; }
+          body .background .container .row4 .container .slider3 .slider_outer .slider_inner {
+            height: 95%;
+            margin: auto;
+            padding: 0; }
+            body .background .container .row4 .container .slider3 .slider_outer .slider_inner .slide {
+              height: 95%;
+              width: 95%; }
+              body .background .container .row4 .container .slider3 .slider_outer .slider_inner .slide p {
+                height: 90%;
+                font-size: 1.98vh; }
+            body .background .container .row4 .container .slider3 .slider_outer .slider_inner .active {
+              display: flex; }
+      body .background .container .row4 .container .location {
+        height: 20%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center; }
+        body .background .container .row4 .container .location .parbat {
+          height: 90%;
+          width: 60%;
+          margin: auto; } }
 body .background .container .row5 {
-  height: 23.85%;
+  height: 24%;
   display: flex;
   flex-direction: column; }
   body .background .container .row5 .container {
@@ -621,17 +585,15 @@ body .background .container .row5 {
       background-repeat: no-repeat;
       background-position: center; }
       body .background .container .row5 .container .slider4 i {
-        position: absolute;
+        margin: auto;
         font-size: 3.5vw;
         color: #fff;
         z-index: 100;
         cursor: pointer; }
       body .background .container .row5 .container .slider4 #s4_btn_prev {
-        left: 5vw;
-        top: 14vw; }
+        margin-left: 7.5vw; }
       body .background .container .row5 .container .slider4 #s4_btn_next {
-        right: 5vw;
-        top: 14vw; }
+        margin-right: 7.5vw; }
       body .background .container .row5 .container .slider4 .slider_outer {
         height: 30vw;
         width: 100%;
@@ -643,63 +605,70 @@ body .background .container .row5 {
           height: 30vw;
           width: 100%;
           margin: auto;
+          padding: 0;
           display: flex;
           flex-direction: row;
           position: relative;
           overflow: hidden; }
           body .background .container .row5 .container .slider4 .slider_outer .slider_inner .slide1 {
-            width: 75%;
-            margin: auto 10vw;
+            height: 90%;
+            width: 90%;
+            margin: auto;
             display: none;
             flex-direction: row;
             justify-content: center; }
             body .background .container .row5 .container .slider4 .slider_outer .slider_inner .slide1 .pic_box {
-              height: 25vw;
-              width: 40vw;
+              height: 90%;
+              width: 50%;
               margin: auto 1vw;
               background-image: url("../img/uttarakhand/row5_slide1.jpg");
               background-size: cover;
               background-repeat: no-repeat; }
             body .background .container .row5 .container .slider4 .slider_outer .slider_inner .slide1 p {
-              width: 30vw;
+              height: 60%;
+              width: 50%;
               margin: auto 1vw;
               font-family: 'Ubuntu';
               font-size: 2vw;
               color: white; }
           body .background .container .row5 .container .slider4 .slider_outer .slider_inner .slide2 {
-            width: 75%;
-            margin: auto 10vw;
+            height: 90%;
+            width: 90%;
+            margin: auto;
             display: none;
             flex-direction: row;
             justify-content: center; }
             body .background .container .row5 .container .slider4 .slider_outer .slider_inner .slide2 .pic_box {
-              height: 25vw;
-              width: 40vw;
+              height: 90%;
+              width: 50%;
               margin: auto 1vw;
               background-image: url("../img/uttarakhand/row5_slide2.jpg");
               background-size: cover;
               background-repeat: no-repeat; }
             body .background .container .row5 .container .slider4 .slider_outer .slider_inner .slide2 p {
-              width: 30vw;
+              height: 60%;
+              width: 50%;
               margin: auto 1vw;
               font-family: 'Ubuntu';
               font-size: 2vw;
               color: white; }
           body .background .container .row5 .container .slider4 .slider_outer .slider_inner .slide3 {
-            width: 75%;
-            margin: auto 10vw;
+            height: 90%;
+            width: 90%;
+            margin: auto;
             display: none;
             flex-direction: row;
             justify-content: center; }
             body .background .container .row5 .container .slider4 .slider_outer .slider_inner .slide3 .pic_box {
-              height: 25vw;
-              width: 40vw;
+              height: 90%;
+              width: 50%;
               margin: auto 1vw;
               background-image: url("../img/uttarakhand/row5_slide3.jpg");
               background-size: cover;
               background-repeat: no-repeat; }
             body .background .container .row5 .container .slider4 .slider_outer .slider_inner .slide3 p {
-              width: 30vw;
+              height: 60%;
+              width: 50%;
               margin: auto 1vw;
               font-family: 'Ubuntu';
               font-size: 2vw;
@@ -716,69 +685,52 @@ body .background .container .row5 {
       cursor: pointer; }
 
 @media only screen and (max-width: 800px) {
-  body .background .container .row5 .container {
-    height: 100%;
-    margin: auto;
-    margin-top: 70%; }
-    body .background .container .row5 .container .slider4 {
-      height: 45%;
-      display: flex;
-      flex-direction: column;
-      background-size: 150%; }
-      body .background .container .row5 .container .slider4 i {
-        font-size: 10vw; }
-      body .background .container .row5 .container .slider4 #s4_btn_prev {
-        left: 2vw;
-        top: 17.5vw; }
-      body .background .container .row5 .container .slider4 #s4_btn_next {
-        right: 2vw;
-        top: 17.5vw; }
-      body .background .container .row5 .container .slider4 .slider_outer {
-        height: 90%;
-        margin: auto;
+  body .background .container .row5 {
+    height: 100vh; }
+    body .background .container .row5 .container {
+      margin: 0;
+      margin-top: 25%; }
+      body .background .container .row5 .container .slider4 {
+        height: 80%;
         display: flex;
-        flex-direction: column; }
-        body .background .container .row5 .container .slider4 .slider_outer .slider_inner {
-          height: 100%;
+        flex-direction: column;
+        background-image: none; }
+        body .background .container .row5 .container .slider4 i {
+          font-size: 10vw; }
+        body .background .container .row5 .container .slider4 #s4_btn_prev {
+          margin-left: 1vw; }
+        body .background .container .row5 .container .slider4 #s4_btn_next {
+          margin-right: 1vw; }
+        body .background .container .row5 .container .slider4 .slider_outer {
+          height: 50%;
           margin: auto;
-          padding: 0; }
-          body .background .container .row5 .container .slider4 .slider_outer .slider_inner .slide1 {
-            height: 100%;
-            width: 75%;
-            margin: auto; }
-            body .background .container .row5 .container .slider4 .slider_outer .slider_inner .slide1 .pic_box {
-              height: 100%;
-              width: 45%; }
-            body .background .container .row5 .container .slider4 .slider_outer .slider_inner .slide1 p {
-              width: 45%;
-              font-size: 3vw; }
-          body .background .container .row5 .container .slider4 .slider_outer .slider_inner .slide2 {
-            height: 100%;
-            width: 75%;
-            margin: auto; }
-            body .background .container .row5 .container .slider4 .slider_outer .slider_inner .slide2 .pic_box {
-              height: 100%;
-              width: 45%; }
-            body .background .container .row5 .container .slider4 .slider_outer .slider_inner .slide2 p {
-              width: 45%;
-              font-size: 3vw; }
-          body .background .container .row5 .container .slider4 .slider_outer .slider_inner .slide3 {
-            height: 100%;
-            width: 75%;
-            margin: auto; }
-            body .background .container .row5 .container .slider4 .slider_outer .slider_inner .slide3 .pic_box {
-              height: 100%;
-              width: 45%; }
-            body .background .container .row5 .container .slider4 .slider_outer .slider_inner .slide3 p {
-              width: 45%;
-              font-size: 3vw; }
-          body .background .container .row5 .container .slider4 .slider_outer .slider_inner .active {
-            display: flex; }
-    body .background .container .row5 .container .uttarakhand {
-      height: 15vw;
-      width: 50vw;
-      margin: auto;
-      margin-top: 40%; } }
+          display: flex;
+          flex-direction: row;
+          background-image: url("../img/track.png");
+          background-repeat: no-repeat;
+          background-position: center;
+          background-size: 102.5% 100%; }
+          body .background .container .row5 .container .slider4 .slider_outer .slider_inner {
+            height: 95%;
+            margin: auto;
+            padding: 0; }
+            body .background .container .row5 .container .slider4 .slider_outer .slider_inner .slide {
+              height: 95%;
+              width: 95%; }
+              body .background .container .row5 .container .slider4 .slider_outer .slider_inner .slide p {
+                height: 90%;
+                font-size: 1.98vh; }
+            body .background .container .row5 .container .slider4 .slider_outer .slider_inner .active {
+              display: flex; }
+      body .background .container .row5 .container .location {
+        height: 20%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center; }
+        body .background .container .row5 .container .location .uttarakhand {
+          height: 85%;
+          width: 85%;
+          margin: auto; } }
 body {
   margin: 0;
   padding: 0;
@@ -892,19 +844,19 @@ body {
             left: 50%; }
         body .background .container .navbar .side-nav {
           right: 0;
-          height: 50vw;
+          height: 50%;
           width: 0;
           z-index: 100;
           position: absolute;
           overflow-x: hidden;
-          margin-top: 12.5vw;
+          margin-top: 35%;
           transition: 0.5s;
           background-image: url("../img/track.png");
           background-size: cover;
           background-position: center;
           background-repeat: no-repeat;
           display: flex;
-          flex-direction: column; }
+          flex-direction: row; }
           body .background .container .navbar .side-nav a, body .background .container .navbar .side-nav a:visited {
             margin: auto;
             color: white;
@@ -914,7 +866,7 @@ body {
             body .background .container .navbar .side-nav a span, body .background .container .navbar .side-nav a:visited span {
               color: #e83f0b; }
         body .background .container .navbar .open-menu {
-          width: 35vw; }
+          width: 100%; }
       body .background .container .row {
         height: 100vh;
         width: 100%; } }
