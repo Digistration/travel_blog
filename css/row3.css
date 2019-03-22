@@ -168,8 +168,8 @@ body .background .container .row3 {
         flex-direction: column;
         justify-content: center; }
         body .background .container .row3 .container .location .westfjords {
-          height: 80%;
-          width: 80%;
+          height: 15vh;
+          width: 45vh;
           margin: auto; } }
 
 /*# sourceMappingURL=row3.css.map */

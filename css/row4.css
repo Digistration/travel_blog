@@ -168,8 +168,8 @@ body .background .container .row4 {
         flex-direction: column;
         justify-content: center; }
         body .background .container .row4 .container .location .parbat {
-          height: 90%;
-          width: 60%;
+          height: 15vh;
+          width: 30vh;
           margin: auto; } }
 
 /*# sourceMappingURL=row4.css.map */

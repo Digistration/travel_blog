@@ -162,8 +162,8 @@ body .background .container .row2 {
     body .background .container .row2 .header .col2 {
       display: none; }
     body .background .container .row2 .header .col3 {
-      height: 95%;
-      width: 40%;
+      height: 17.75vh;
+      width: 22.5vh;
       margin: auto; }
       body .background .container .row2 .header .col3 .logo {
         height: 100%;
@@ -212,8 +212,8 @@ body .background .container .row2 {
         flex-direction: column;
         justify-content: center; }
         body .background .container .row2 .container .location .shanghai {
-          height: 80%;
-          width: 52.5%;
+          height: 15vh;
+          width: 35vh;
           margin: auto; } }
 body .background .container .row3 {
   height: 29%;
@@ -385,8 +385,8 @@ body .background .container .row3 {
         flex-direction: column;
         justify-content: center; }
         body .background .container .row3 .container .location .westfjords {
-          height: 80%;
-          width: 80%;
+          height: 15vh;
+          width: 45vh;
           margin: auto; } }
 body .background .container .row4 {
   height: 22%;
@@ -558,8 +558,8 @@ body .background .container .row4 {
         flex-direction: column;
         justify-content: center; }
         body .background .container .row4 .container .location .parbat {
-          height: 90%;
-          width: 60%;
+          height: 15vh;
+          width: 30vh;
           margin: auto; } }
 body .background .container .row5 {
   height: 24%;
@@ -728,8 +728,8 @@ body .background .container .row5 {
         flex-direction: column;
         justify-content: center; }
         body .background .container .row5 .container .location .uttarakhand {
-          height: 85%;
-          width: 85%;
+          height: 15vh;
+          width: 50vh;
           margin: auto; } }
 body {
   margin: 0;

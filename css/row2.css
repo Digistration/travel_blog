@@ -159,8 +159,8 @@ body .background .container .row2 {
     body .background .container .row2 .header .col2 {
       display: none; }
     body .background .container .row2 .header .col3 {
-      height: 95%;
-      width: 40%;
+      height: 17.75vh;
+      width: 22.5vh;
       margin: auto; }
       body .background .container .row2 .header .col3 .logo {
         height: 100%;
@@ -209,8 +209,8 @@ body .background .container .row2 {
         flex-direction: column;
         justify-content: center; }
         body .background .container .row2 .container .location .shanghai {
-          height: 80%;
-          width: 52.5%;
+          height: 15vh;
+          width: 35vh;
           margin: auto; } }
 
 /*# sourceMappingURL=row2.css.map */

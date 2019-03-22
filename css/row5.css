@@ -165,8 +165,8 @@ body .background .container .row5 {
         flex-direction: column;
         justify-content: center; }
         body .background .container .row5 .container .location .uttarakhand {
-          height: 85%;
-          width: 85%;
+          height: 15vh;
+          width: 50vh;
           margin: auto; } }
 
 /*# sourceMappingURL=row5.css.map */
