@@ -222,3 +222,28 @@ body{
     }
   }
 }
+
+@media only screen and (max-width: 350px) and (max-height: 500px){
+  body{
+    .background{
+      .container{
+        .row5{
+          .container{
+            .slider4{
+              .slider_outer{
+                .slider_inner{
+                  .slide{
+                    p{
+                      height: 85%;
+                      font-size: 67%;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
