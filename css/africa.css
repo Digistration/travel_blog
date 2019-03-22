@@ -80,7 +80,7 @@ body {
           flex-direction: row;
           justify-content: space-between;
           background-image: url("../img/track.png");
-          background-size: cover;
+          background-size: 102.5% 100%;
           background-repeat: no-repeat; }
           body .background .container .posts .container .post {
             height: 100%;
