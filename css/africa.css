@@ -115,6 +115,7 @@ body {
 
 @media only screen and (max-width: 800px) {
   body .background {
+    height: 100vh;
     height: calc(var(--vh, 1vh) * 100); }
     body .background .container {
       justify-content: flex-start; }

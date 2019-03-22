@@ -148,6 +148,8 @@ body{
 @media only screen and (max-width: 800px){
   body{
     .background{
+      height: 100vh;
+      height: calc(var(--vh, 1vh) * 100);
       .container{
         justify-content: flex-start;
         .navbar{
@@ -248,8 +250,8 @@ body{
             margin-top: 17.5vw;
             transition: 0.5s;
             background-image: url("../img/track.png");
-            background-size: cover;
             background-position: center;
+            background-size: 100% 100%;
             background-repeat: no-repeat;
             display: flex;
             flex-direction: row;
