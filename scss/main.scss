@@ -53,6 +53,7 @@ body{
   body{
     .background{
       height: 420vh;
+      height: calc(var(--vh, 1vh) * 420);
       width: 98.9vw;
       background-image: url("../img/backgroundII.jpg");
       background-size: 130%;
