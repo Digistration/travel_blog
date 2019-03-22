@@ -80,7 +80,7 @@ body {
           flex-direction: row;
           justify-content: space-between;
           background-image: url("../img/track.png");
-          background-size: 102.5% 100%;
+          background-size: cover;
           background-repeat: no-repeat; }
           body .background .container .posts .container .post {
             height: 100%;
@@ -233,7 +233,9 @@ body {
         body .background .container .posts .container .post {
           height: 30%;
           width: 100%;
-          background-image: url("../img/track.png"); }
+          background-image: url("../img/track.png");
+          background-position: center;
+          background-size: 102.5% 100%; }
         body .background .container .posts .container .pic {
           width: 50%; }
         body .background .container .posts .container a {

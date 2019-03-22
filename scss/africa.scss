@@ -91,7 +91,7 @@ body{
           flex-direction: row;
           justify-content: space-between;
           background-image: url("../img/track.png");
-          background-size: 102.5% 100%;
+          background-size: cover;
           background-repeat: no-repeat;
           .post{
             height: 100%;
@@ -297,6 +297,8 @@ body{
               height: 30%;
               width: 100%;
               background-image: url("../img/track.png");
+              background-position: center;
+              background-size: 102.5% 100%;
             }
             .pic{
               width: 50%;
