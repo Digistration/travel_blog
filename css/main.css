@@ -93,7 +93,6 @@ body .background .container .row2 {
               background-repeat: no-repeat;
               background-position: center; }
             body .background .container .row2 .container .slider1 .slider_outer .slider_inner .slide1 p {
-              height: 60%;
               width: 50%;
               margin: auto 1vw;
               font-family: 'Ubuntu';
@@ -115,7 +114,6 @@ body .background .container .row2 {
               background-repeat: no-repeat;
               background-position: center; }
             body .background .container .row2 .container .slider1 .slider_outer .slider_inner .slide2 p {
-              height: 60%;
               width: 50%;
               margin: auto 1vw;
               font-family: 'Ubuntu';
@@ -137,7 +135,6 @@ body .background .container .row2 {
               background-repeat: no-repeat;
               background-position: center; }
             body .background .container .row2 .container .slider1 .slider_outer .slider_inner .slide3 p {
-              height: 60%;
               width: 50%;
               margin: auto 1vw;
               font-family: 'Ubuntu';
@@ -200,7 +197,6 @@ body .background .container .row2 {
             height: 95%;
             width: 95%; }
             body .background .container .row2 .container .slider1 .slider_outer .slider_inner .slide p {
-              height: 90%;
               font-size: 82.5%; }
           body .background .container .row2 .container .slider1 .slider_outer .slider_inner .active {
             display: flex; }
@@ -215,7 +211,6 @@ body .background .container .row2 {
         margin: auto; } }
 @media only screen and (max-width: 350px) and (max-height: 500px) {
   body .background .container .row2 .container .slider1 .slider_outer .slider_inner .slide p {
-    height: 85%;
     font-size: 65%; } }
 body .background .container .row3 {
   height: 29%;
@@ -282,7 +277,6 @@ body .background .container .row3 {
               background-repeat: no-repeat;
               background-position: center; }
             body .background .container .row3 .container .slider2 .slider_outer .slider_inner .slide1 p {
-              height: 60%;
               width: 50%;
               margin: auto 1vw;
               font-family: 'Ubuntu';
@@ -304,7 +298,6 @@ body .background .container .row3 {
               background-repeat: no-repeat;
               background-position: center; }
             body .background .container .row3 .container .slider2 .slider_outer .slider_inner .slide2 p {
-              height: 60%;
               width: 50%;
               margin: auto 1vw;
               font-family: 'Ubuntu';
@@ -326,7 +319,6 @@ body .background .container .row3 {
               background-repeat: no-repeat;
               background-position: center; }
             body .background .container .row3 .container .slider2 .slider_outer .slider_inner .slide3 p {
-              height: 60%;
               width: 50%;
               margin: auto 1vw;
               font-family: 'Ubuntu';
@@ -375,7 +367,6 @@ body .background .container .row3 {
             height: 95%;
             width: 95%; }
             body .background .container .row3 .container .slider2 .slider_outer .slider_inner .slide p {
-              height: 90%;
               font-size: 82.5%; }
           body .background .container .row3 .container .slider2 .slider_outer .slider_inner .active {
             display: flex; }
@@ -390,7 +381,6 @@ body .background .container .row3 {
         margin: auto; } }
 @media only screen and (max-width: 350px) and (max-height: 500px) {
   body .background .container .row3 .container .slider2 .slider_outer .slider_inner .slide p {
-    height: 85%;
     font-size: 65%; } }
 body .background .container .row4 {
   height: 22%;
@@ -457,7 +447,6 @@ body .background .container .row4 {
               background-repeat: no-repeat;
               background-position: center; }
             body .background .container .row4 .container .slider3 .slider_outer .slider_inner .slide1 p {
-              height: 60%;
               width: 50%;
               margin: auto 1vw;
               font-family: 'Ubuntu';
@@ -479,7 +468,6 @@ body .background .container .row4 {
               background-repeat: no-repeat;
               background-position: center; }
             body .background .container .row4 .container .slider3 .slider_outer .slider_inner .slide2 p {
-              height: 60%;
               width: 50%;
               margin: auto 1vw;
               font-family: 'Ubuntu';
@@ -501,7 +489,6 @@ body .background .container .row4 {
               background-repeat: no-repeat;
               background-position: center; }
             body .background .container .row4 .container .slider3 .slider_outer .slider_inner .slide3 p {
-              height: 60%;
               width: 50%;
               margin: auto 1vw;
               font-family: 'Ubuntu';
@@ -550,7 +537,6 @@ body .background .container .row4 {
             height: 95%;
             width: 95%; }
             body .background .container .row4 .container .slider3 .slider_outer .slider_inner .slide p {
-              height: 90%;
               font-size: 82.5%; }
           body .background .container .row4 .container .slider3 .slider_outer .slider_inner .active {
             display: flex; }
@@ -565,7 +551,6 @@ body .background .container .row4 {
         margin: auto; } }
 @media only screen and (max-width: 350px) and (max-height: 500px) {
   body .background .container .row4 .container .slider3 .slider_outer .slider_inner .slide p {
-    height: 85%;
     font-size: 65%; } }
 body .background .container .row5 {
   height: 24%;
@@ -631,7 +616,6 @@ body .background .container .row5 {
               background-size: cover;
               background-repeat: no-repeat; }
             body .background .container .row5 .container .slider4 .slider_outer .slider_inner .slide1 p {
-              height: 60%;
               width: 50%;
               margin: auto 1vw;
               font-family: 'Ubuntu';
@@ -652,7 +636,6 @@ body .background .container .row5 {
               background-size: cover;
               background-repeat: no-repeat; }
             body .background .container .row5 .container .slider4 .slider_outer .slider_inner .slide2 p {
-              height: 60%;
               width: 50%;
               margin: auto 1vw;
               font-family: 'Ubuntu';
@@ -673,7 +656,6 @@ body .background .container .row5 {
               background-size: cover;
               background-repeat: no-repeat; }
             body .background .container .row5 .container .slider4 .slider_outer .slider_inner .slide3 p {
-              height: 60%;
               width: 50%;
               margin: auto 1vw;
               font-family: 'Ubuntu';
@@ -722,7 +704,6 @@ body .background .container .row5 {
             height: 95%;
             width: 95%; }
             body .background .container .row5 .container .slider4 .slider_outer .slider_inner .slide p {
-              height: 90%;
               font-size: 82.5%; }
           body .background .container .row5 .container .slider4 .slider_outer .slider_inner .active {
             display: flex; }
@@ -737,7 +718,6 @@ body .background .container .row5 {
         margin: auto; } }
 @media only screen and (max-width: 350px) and (max-height: 500px) {
   body .background .container .row5 .container .slider4 .slider_outer .slider_inner .slide p {
-    height: 85%;
     font-size: 65%; } }
 body {
   margin: 0;
