@@ -229,14 +229,14 @@ body {
     body .background .container .section p {
       width: 50%;
       margin-right: 4vw;
-      font-size: calc(var(--vh, 1vh) * 1.5); }
+      font-size: calc(var(--vh, 1vh) * 1.25); }
     body .background .container .section1 {
       height: 40%;
       display: flex;
       flex-direction: column;
       justify-content: center; }
       body .background .container .section1 .header {
-        height: 35%;
+        height: 40%;
         width: 100%;
         justify-content: flex-start; }
         body .background .container .section1 .header h1, body .background .container .section1 .header a {
@@ -255,7 +255,7 @@ body {
           body .background .container .section1 .header .container .col3 {
             display: none; }
       body .background .container .section1 .paragraph1 {
-        height: 65%;
+        height: 60%;
         margin: auto;
         margin-bottom: 0; }
         body .background .container .section1 .paragraph1 .container {
