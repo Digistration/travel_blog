@@ -229,7 +229,7 @@ body {
     body .background .container .section p {
       width: 50%;
       margin-right: 4vw;
-      font-size: calc(var(--vh, 1vh) * 0.5); }
+      font-size: calc(var(--vh, 1vh) * 1.25); }
     body .background .container .section1 {
       height: 40%;
       display: flex;
