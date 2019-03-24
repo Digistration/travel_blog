@@ -195,11 +195,11 @@ body {
           z-index: 100;
           position: absolute;
           overflow-x: hidden;
-          margin-top: 17.5vw;
+          margin-top: 15vw;
           transition: 0.5s;
           background-image: url("../img/track.png");
+          background-size: cover;
           background-position: center;
-          background-size: 100% 100%;
           background-repeat: no-repeat;
           display: flex;
           flex-direction: row; }
@@ -237,7 +237,8 @@ body {
           body .background .container .posts .container .post {
             height: 30%;
             width: 100%;
-            background-image: url("../img/track.png"); }
+            background-image: url("../img/track.png");
+            background-size: 100% 100%; }
           body .background .container .posts .container .pic {
             width: 50%; }
           body .background .container .posts .container a {
