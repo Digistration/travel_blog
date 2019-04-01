@@ -22,8 +22,8 @@ body .background .container .row2 {
       cursor: pointer;
       text-decoration: none; }
     body .background .container .row2 .header .col3 .logo {
-      height: 15vw;
-      width: 14.75vw;
+      height: 15.5vw;
+      width: 100%;
       margin: auto;
       background-image: url("../img/logo.png");
       background-size: cover;
